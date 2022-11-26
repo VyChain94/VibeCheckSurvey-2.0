@@ -202,7 +202,7 @@ const Survey = () => {
           <DialogContentText id="alert-dialog-slide-description">
             {`Hello ${formValues.name} we are glad to about your 
             positive experience at ${formValues.location}
-            and that you were able to feel ${formValues.emotion}
+            and that you were able to feel ${formValues.emotion}, 
             here’s to many more positive experiences!😁
             `}
           </DialogContentText>
