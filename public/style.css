@@ -17,14 +17,7 @@ code {
   padding: 20px;
   width: 600px;
   border: 1px solid #1976d2;
-  box-shadow:
-  2.6px 8.1px 13.8px -40px rgba(0, 0, 0, 0.49),
-  6.3px 19.4px 33.3px -40px rgba(0, 0, 0, 0.482),
-  11.8px 36.4px 62.6px -40px rgba(0, 0, 0, 0.449),
-  21px 65px 111.7px -40px rgba(0, 0, 0, 0.408),
-  39.3px 121.6px 208.9px -40px rgba(0, 0, 0, 0.365),
-  94px 291px 500px -40px rgba(0, 0, 0, 0.32)
-;
+  border-radius: 5%;
 }
 
 #date{

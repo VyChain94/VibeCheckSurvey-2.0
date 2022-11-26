@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Vibe Check Survey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic survey application that inquires about and responds to a user's emotional vibration based on the user's input.
 
-## Available Scripts
+## Problem to solve
 
-In the project directory, you can run:
+Everybody experiences self-doubt, loneliness, and the need for validation from time to time. Some people journal for this purpose and others don’t due to not feeling comfortable having a journal, or even journaling in general.
 
-### `npm start`
+## Solution to the problem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This application allows users to quickly journal on the go, possibly without feeling self-conscious about it as well, by offering a simple prompting survey to fill out that will allow them to easily track their previous logs and continue on with their day after recieving a heart warming and acknowledging message upon submission of their form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Progress
 
-### `npm test`
+This is an improvement to a previous static survey that I developed, now that I have programming skills I have decided to make this a dynamic application. This is also an ongoing project, and I intend to add authentication with protected routed for authorization, as well as a database that will allow the user to also save and log their previous experiences to keep records of over time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### How to use
 
-### `npm run build`
+Fill in the input fields on the form and click the submit button, this will display a modal that will respond to the information that you have just filled out.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- React Router
+- Material UI

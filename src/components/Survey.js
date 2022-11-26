@@ -34,7 +34,6 @@ const defaultValues = {
 const Survey = () => {
 
   const [formValues, setFormValues] = useState(defaultValues);
-
   //modal
   const [open, setOpen] = React.useState(false);
 
@@ -47,10 +46,9 @@ const Survey = () => {
   };
 
   const handleInputChange = (e) => {
-    //deconstructing...
   const { name, value} = e.target;
-    //change state to spread out input values and show our input's key and value pair
-    setFormValues({
+
+  setFormValues({
       ...formValues,
       [name]: value,
     });
@@ -65,9 +63,6 @@ const Survey = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // console.log(event) to dig through console
-    console.log(formValues);
-    // console.log(selectedDate)
   };
 
   return (
@@ -205,10 +200,10 @@ const Survey = () => {
         <DialogTitle>{"Thank you for the update! 🎊"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-slide-description">
-            {`Hello ${formValues.name} we are glad to about your positive experience at ${formValues.location}
-            and that you were able to feel ${formValues.emotion}${formValues.scale
-            ? " and carry it with you throughout the rest of the day!" : "," }
-            here’s to many more positive experiences!”😁
+            {`Hello ${formValues.name} we are glad to about your 
+            positive experience at ${formValues.location}
+            and that you were able to feel ${formValues.emotion}
+            here’s to many more positive experiences!😁
             `}
           </DialogContentText>
         </DialogContent>
